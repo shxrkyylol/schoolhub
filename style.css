@@ -8,7 +8,7 @@ body {
     height: 100vh;
     display: flex; 
     flex-direction: column;
-    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    background: linear-gradient(rgb(0, 255, 119), rgb(8, 93, 0));
     font-family: Gotham Rounded, sans-serif;
     color: white;
 }
