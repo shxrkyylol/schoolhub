@@ -8,9 +8,26 @@ body {
     height: 100vh;
     display: flex; 
     flex-direction: column;
-    background: linear-gradient(rgb(0, 255, 119), rgb(8, 93, 0));
+    /* start background */
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 7s ease-in-out infinite;
+    /* end background */
     font-family: Gotham Rounded, sans-serif;
     color: white;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 .text-section {
